@@ -1,0 +1,15 @@
+# Ignore main/templates directory
+main/templates/* linguist-vendored
+
+# Ignore static files
+static/* linguist-vendored
+
+# Set Python as the primary language for .py files
+*.py linguist-language=Python
+
+# Optionally ignore other non-Python files if necessary
+*.html linguist-vendored
+*.js linguist-vendored
+*.css linguist-vendored
+migrations/* linguist-vendored
+*.md linguist-documentation
