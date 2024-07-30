@@ -1,7 +1,7 @@
 # RateMyProfessor
 
+# [packages]
 
-[packages]
 django-allauth = {extras = ["socialaccount"], version = "*"}
 
 django-crispy-forms = "*"
